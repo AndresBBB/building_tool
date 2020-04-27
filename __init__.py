@@ -42,6 +42,11 @@ class BTOOLS_PT_mesh_tools(bpy.types.Panel):
         col.operator("btools.add_stairs")
         col.operator("btools.add_roof")
 
+        col = layout.column(align=True)
+        row = col.row(align=True)
+        row.operator("btools.add_fill")
+        row.operator("btools.add_railing")
+
 
 class BTOOLS_PT_material_tools(bpy.types.Panel):
 

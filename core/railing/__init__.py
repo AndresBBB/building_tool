@@ -1,5 +1,6 @@
 import bpy
 
+from .railing_ops import BTOOLS_OT_add_railing
 from .railing_props import PostFillProperty, RailFillProperty, WallFillProperty, RailProperty
 
 classes = (
@@ -7,6 +8,7 @@ classes = (
     RailFillProperty,
     WallFillProperty,
     RailProperty,
+    BTOOLS_OT_add_railing,
 )
 
 
