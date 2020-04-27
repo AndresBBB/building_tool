@@ -29,6 +29,11 @@ class FaceMap(AutoIndex):
     DOOR_PANELS = auto()
     DOOR_LOUVERS = auto()
 
+    GENERIC_BAR = auto()
+    GENERIC_PANES = auto()
+    GENERIC_PANELS = auto()
+    GENERIC_LOUVERS = auto()
+
     STAIRS = auto()
     BALCONY = auto()
 
