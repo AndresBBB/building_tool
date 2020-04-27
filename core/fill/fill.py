@@ -1,7 +1,7 @@
 import bmesh
 
 from .fill_types import fill_panel, fill_glass_panes, fill_bar, fill_louver
-from ...utils import get_edit_mesh, FaceMap, add_facemap_for_groups
+from ...utils import get_edit_mesh
 
 
 class Fill:
