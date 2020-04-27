@@ -6,7 +6,7 @@ from .railing_props import RailProperty
 
 
 class BTOOLS_OT_add_railing(bpy.types.Operator):
-    """Add various fill types to selected faces"""
+    """Add railing to selected faces (+z facing)"""
 
     bl_idname = "btools.add_railing"
     bl_label = "Railing"

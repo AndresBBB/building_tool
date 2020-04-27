@@ -6,7 +6,7 @@ from .fill_props import FillBars, FillPanel, FillLouver, FillGlassPanes
 
 
 class BTOOLS_OT_add_fill(bpy.types.Operator):
-    """Add various fill types to selected faces"""
+    """Add various fill types to selected faces (bars, panels, etc.)"""
 
     bl_idname = "btools.add_fill"
     bl_label = "Fill"
