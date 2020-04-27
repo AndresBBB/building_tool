@@ -22,7 +22,7 @@ from ...utils import (
     extrude_face,
 )
 
-from ..railing.railing import create_railing
+from ..railing.railing_types import create_railing
 
 
 def create_stairs(bm, faces, prop):

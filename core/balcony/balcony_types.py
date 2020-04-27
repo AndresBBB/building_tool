@@ -14,7 +14,7 @@ from ...utils import (
     popup_message,
 )
 
-from ..railing.railing import create_railing
+from ..railing.railing_types import create_railing
 
 
 def create_balcony(bm, faces, prop):
